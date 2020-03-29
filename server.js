@@ -1,14 +1,14 @@
-var express = require("express");
+var express = require('express');
 var app = express();
 var handlebars = require("express-handlebars");
 
-var mongoose = require("mongoose");
+var mongoose = require('mongoose');
 
-var bodyParser = require("body-parser");
+var bodyParser = require('body-parser');
 
-var Contact = require(,./models/Contact');
+var Contact = require(/models/Contact);
 
-app.set("view engine", "hbs");
+app.set('view engine', 'hbs');
 app.engine(
   "hbs",
   handlebars({
