@@ -7,14 +7,16 @@
   height: 100%;
   width: 100%;
 }
+/* code to give overall colour to screen with no borders  */
 body {
   margin: 0px;
 }
 .flower-image {
-  height: 702.96px;
-  width: 706.68px;
+  height: 593.84px;
+  width: 604.3px;
 }
 .login img {
+  /* margin Set up to auto on screen*/
   margin-left: auto;
   margin-right: auto;
   display: block;
