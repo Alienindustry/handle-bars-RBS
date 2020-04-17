@@ -1,8 +1,8 @@
 .container {
   /* background colour for screen */
-  background-color: rgb(239, 239, 193);
+  background-color: #efefc1;
   height: 1081%;
-  width: 2500%;
+  width: 500%;
 }
 /* code to give overall colour to screen with no borders  */
 body {
@@ -12,58 +12,64 @@ body {
   height: 593.84px;
   width: 604.3px;
 }
+
+.icon {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 50px;
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
 .login img {
   /* margin Set up to auto on screen*/
   /*margin-left: 300;*/
- /* margin-right: 500;*/
+  /* margin-right: 500;*/
   display: block;
-  padding-bottom:200px;
+  padding-bottom: 200px;
 }
-.login {   /* relative position of flower image using flex for the basic item  */
+.login {
+  /* relative position of flower image using flex for the basic item  */
   position: relative;
   display: flex;
   width: 1920px;
   height: 1081px;
   justify-content: center;
   align-items: center;
-  padding-left: 200px;
+  padding-left: 100px;
+ 
 }
-.fmn-text{  /* length height of text */
+.fmn-text {
+  /* length height of text */
   width: 1100px;
   height: 500px;
-}
+} 
 
-.first-paragraph{
+.first-paragraph {
   margin-bottom: 40px;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;  /* width, height and font type */
-
-
+  font-family: Arial, Helvetica, sans-serif; /* width, height and font type */
 }
 
-
-
-
-.second-paragraph{
-   margin-bottom: 30px;
-   font-size: 30px;
-   font-family: Arial, Helvetica, sans-serif;
-
+.second-paragraph {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.site-name{
+.site-name {
   width: 600px;
   height: 100px;
   font-size: 45px;
-  font-family: 'Sonsie One', cursive;
+  font-family: "Sonsie One", cursive;
 }
 
-.strap-name{   /* strap name and how it is configured */
+.strap-name {
+  /* strap name and how it is configured */
   width: 900px;
   height: 100px;
   font-size: 35px;
-  font-family: 'Sonsie One', cursive;
-
+  font-family: "Sonsie One", cursive;
 }
 /* click button with its configuration and given a transition time to go to next page 0.4s */
 .button {
@@ -74,20 +80,41 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 200px;
+  width: 150px;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;/* font type  */
-  margin: 8px 8px;
-  cursor: pointer;/* type of operation  */
+  font-family: Arial, Helvetica, sans-serif; /* font type  */
+  margin: 50px 100px;
+  cursor: pointer; /* type of operation  */
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
 
-.button1 {
+.button {
   border-radius: 8px;
 }
 
-.button1 {
+.button {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion  */
+}
+
+.page2title {
+  width: 100%;
+  align-items: baseline;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+  vertical-align: middle;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion  */
+}
+.password-reset{
+  /*width: 0px;*/
+  height: 100;
+  padding-left: 60px;
+  padding-top: 20px;
+
+
 }
