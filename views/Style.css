@@ -1,8 +1,8 @@
 .container {
   /* background colour for screen */
   background-color: #efefc1;
-  height: 1081%;
-  width: 500%;
+  height: 1080px;
+  width: 1920px;
 }
 /* code to give overall colour to screen with no borders  */
 body {
@@ -12,38 +12,55 @@ body {
   height: 593.84px;
   width: 604.3px;
 }
-
 .icon {
   margin: 0 !important;
   padding: 0 !important;
   width: 50px;
   display: inline-block !important;
   vertical-align: middle;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .login img {
   /* margin Set up to auto on screen*/
-  /*margin-left: 300;*/
-  /* margin-right: 500;*/
+  margin-left: 0;
+  margin-right: 10;
   display: block;
   padding-bottom: 200px;
 }
+.login-2 {
+  margin-left: 600;
+  margin-right: 10;
+  display: block;
+  padding-bottom: 200px;
+}
+.classB {
+  
+  margin-left: 0;
+  margin-right: 10;
+  display: block;
+  padding-bottom: 200px;
+}
+
 .login {
   /* relative position of flower image using flex for the basic item  */
   position: relative;
   display: flex;
   width: 1920px;
   height: 1081px;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  /*align-items: center;*/
   padding-left: 100px;
- 
 }
 .fmn-text {
   /* length height of text */
-  width: 1100px;
+  width: 750px;
   height: 500px;
-} 
+  padding-right: 100px;
+  padding-bottom: 100;
+  padding-top: 100px;
+}
 
 .first-paragraph {
   margin-bottom: 40px;
@@ -95,7 +112,7 @@ body {
 }
 
 .button {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion  */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion*/
 }
 
 .page2title {
@@ -103,18 +120,95 @@ body {
   align-items: baseline;
 }
 
-.input {
+/*.input {
   width: 400px;
   height: 40px;
   vertical-align: middle;
   border-radius: 8px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion  */
+  /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion 
+}*/
+.password-reset {
+  height: 0;
+  padding-left: 0px;
+  padding-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.password-reset{
-  /*width: 0px;*/
-  height: 100;
-  padding-left: 60px;
-  padding-top: 20px;
+
+.hr {
+  padding-block-start: 10px;
+}
+
+/*login page styles*/
+
+.login-header {
+  width: 1920px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.login-name{
+position: absolute;
+top: 60;
+left: 175;
+  width: 600px;
+  height: 100px;
+  font-size: 45px;
+  font-family: "Sonsie One", cursive;
+}
+
+.login-inputs{
+  width: 800px ;
+  height: 180px;
+}
+.login-container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1920px;
+flex-direction: column;
+}
+
+.Password{
+  width: 350px;
+  height: 30px;
+  background: none;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.password-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  
+}
+
+.login-button-container{
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
 
 
 }
+.login-strap-name{
+  width: 900px;
+  height: 100px;
+  font-size: 35px;
+  font-family: "Sonsie One", cursive;
+  text-align: center;
+
+}
+.inputrow{
+
+height: 80px;
+
+}
+
+
