@@ -12,7 +12,7 @@ body {
   height: 593.84px;
   width: 604.3px;
 }
-.icon {
+.icon { /* envelope icon*/
   margin: 0 !important;
   padding: 0 !important;
   width: 50px;
@@ -22,7 +22,7 @@ body {
   padding-right: 100px;
 }
 
-.login img {
+.login.img {
   /* margin Set up to auto on screen*/
   margin-left: 0;
   margin-right: 10;
@@ -43,6 +43,20 @@ body {
   padding-bottom: 200px;
 }
 
+.classC {
+  
+  margin-left: 0;
+  margin-right: 10;
+  display: block;
+  padding-bottom: 600px;
+  padding-top: 600px;
+  padding-left: 600px;
+}
+
+
+  
+
+
 .login {
   /* relative position of flower image using flex for the basic item  */
   position: relative;
@@ -53,6 +67,7 @@ body {
   /*align-items: center;*/
   padding-left: 100px;
 }
+
 .fmn-text {
   /* length height of text */
   width: 750px;
@@ -97,7 +112,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 150px;
+  /* width: 150px; */
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif; /* font type  */
   margin: 50px 100px;
@@ -152,11 +167,22 @@ body {
 position: absolute;
 top: 60;
 left: 175;
-  width: 600px;
+  width: px;
   height: 100px;
-  font-size: 45px;
+  font-size: 35px;
   font-family: "Sonsie One", cursive;
 }
+
+/*.login-Header-name-food-list{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  font-size: 85px;
+  font-family: "Sonsie One", cursive;
+}*/
+
 
 .login-inputs{
   width: 800px ;
@@ -169,6 +195,7 @@ justify-content: center;
 align-items: center;
 width: 1920px;
 flex-direction: column;
+
 }
 
 .Password{
@@ -194,6 +221,7 @@ flex-direction: column;
   justify-content: center;
   display: flex;
   align-items: center;
+  
 
 
 }

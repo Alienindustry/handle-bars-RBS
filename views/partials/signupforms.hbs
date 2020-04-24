@@ -1,0 +1,11 @@
+<h3>sign up</h3>
+{{#if userExist
+<div class="card-panel red">User Already Exists</div>
+
+{{/if}}{{/if}}
+form action-"/signup" method-"post">
+    <input type="text" name="username" id="username" placeholder="Enter Username/email">
+    <input type="password" name="password" placeholder="Enter Password">
+    <input type="password" name="confirmPassword" placeholder="Confirm Password">
+    <input type="submit" value="submit" id="signUpSubmit" class="btn waves-effect waves-light">
+</h3>
