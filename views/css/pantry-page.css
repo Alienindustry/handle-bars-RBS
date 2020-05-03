@@ -1,0 +1,178 @@
+.flower-page3 {
+    padding-top: -200px;   
+    /* padding-left: 1300px; */
+    
+    }
+    
+    /* .buttons-container-page3 {
+        padding-top: 350px*/
+    
+    
+        
+    
+         
+    
+    
+    .input-box-page3{
+        /* /* border: none;
+        width: 652px; */
+        height: 30px;
+        font-size: 15px; 
+    
+    
+    }
+    
+    .login-name-page3{
+    
+    padding-top: 110px;
+      width: px;
+      /* height: 100px; */
+      font-size: 35px;
+      font-family: "Sonsie One", cursive;
+      
+    
+    
+    
+    }
+    
+    .Man-in-fridge-2{
+    position: absolute;
+       
+        left: 80px;
+        width: px;
+        height: px;
+        top: 700px;
+        left:1500px;
+    
+    
+    
+    
+    }
+    
+    .food-list-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+        width: 220px;
+        height: 126px;
+        /* font-family "Sonsie One", cursive; */
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* flex-wrap: wrap; */
+    
+    }
+    
+
+    .food-list-boxes-buttons{
+
+   margin-right: 10px;
+   /* margin-bottom: 45px; */
+   flex-wrap: wrap;
+    
+    }
+
+
+
+
+    .food-input-container{
+    
+        width: 720px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .icon-for-food-list{
+    
+    width: 60px;
+    height: 6opx;
+    
+    }
+    
+    .food-list-image{
+    
+        width: 80px;
+        padding: 15px;
+    }
+    
+    .comment-line{
+    
+     /* background-color: #B1B1FF;
+    width: 652px;
+     height: 1px; */
+    }
+    
+    .flower-paragraph{
+    
+        position: absolute;
+        top: 40px;
+        right: 140px;
+        width: 300px;
+    
+    
+    }
+    
+    .paragraph-food-list{
+    
+        font-size: 35px;
+        height: 25px;
+      
+    }
+    
+    .Paragraph-end-name{
+        padding-top: 310px;
+        height: 50px;
+        top: 400px; 
+        left: 80px;
+        
+        font-size: 17px;
+        font-family: "Sonsie One", cursive;
+        /* font-family: Arial, Helvetica, sans-serif; width, height and font type */
+        
+    
+        
+    
+    }
+    .input-box-page4{
+        width: 200px;
+
+    }
+
+    .Meal-Alerts-Button{
+
+        width: 325px;
+        height: 200px;
+        padding-top: 80px;
+
+
+    }
+        
+        
+          
+          
+
+          .pantry-display-boxes{
+
+            display: flex;
+
+
+
+
+          }
+          .pantry-display-container{
+            
+             display: flex;
+             width: 950px;
+             flex-direction: row;
+             /* height: 800px; */
+             flex-wrap: wrap;
+          }
+
+          .pantry-Icon-page-4{
+              Height: 250px;
+              width:  250px;
+              padding-top: 300px;
+              padding-right: 1500px;
+          }

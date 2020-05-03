@@ -4,15 +4,15 @@ padding-top: -200px;
 
 }
 
-.buttons-container-page3 { 
-    /* padding-top: 350px */
+/* .buttons-container-page3 {
+    padding-top: 350px*/
 
 
     
 
-    
+     
 
-}
+
 .input-box-page3{
     border: none;
     width: 652px;
@@ -26,8 +26,9 @@ padding-top: -200px;
     /* position: absolute; */
 /* top: 120; */
 /* left: 605; */
+padding-top: 110px;
   width: px;
-  height: 100px;
+  /* height: 100px; */
   font-size: 35px;
   font-family: "Sonsie One", cursive;
 
@@ -46,6 +47,10 @@ padding-top: -200px;
 
 
 }
+
+
+
+
 
 .food-list-container{
 
@@ -111,9 +116,11 @@ width: 652px;
     height: 50px;
     top: 400px; 
     left: 80px;
+    
     font-size: 17px;
     font-family: "Sonsie One", cursive;
     /* font-family: Arial, Helvetica, sans-serif; width, height and font type */
+    
 
     
 
