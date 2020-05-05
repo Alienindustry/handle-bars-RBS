@@ -9,6 +9,9 @@ var bcrypt = require('bcryptjs');
 const  passport = require('passport');
 const session = require('express-session');
 
+
+const port = 
+const mongourl = process.env.mongourl ||'mongo'
 const { isauth } = require('./middleware/iauth');
 require('./middleware/passport')(passport);
 
@@ -155,7 +158,7 @@ app.post("/addContact", (req, res) => {
 
 // Mongo is used to connect to our data base 27017 is our port no
   })
-mongoose.connect('mongodb://RichardBS:Joshua07@cluster0-3uy5p.mongodb.net/test', {
+mongoose.connect(, {
     //These are used so we do not get depreciation messages
     useUnifiedTopology: true,
     useNewUrlParser: true,
@@ -170,8 +173,8 @@ mongoose.connect('mongodb://RichardBS:Joshua07@cluster0-3uy5p.mongodb.net/test',
     console.log("Not connected to the DB with err : " + err);
   });
 
-//listening for a request on port 3001
+//listening for a request on port 3000
 app.listen(3000, () => {
-  console.log("server listening on port 3000");
-}
+  console.log("server listening on port $ {port"});
+
 });
