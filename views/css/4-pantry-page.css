@@ -156,17 +156,18 @@
           .pantry-display-boxes{
 
             display: flex;
+           
 
 
 
 
           }
           .pantry-display-container{
-            
+            overflow: scroll;
              display: flex;
              width: 950px;
              flex-direction: row;
-             /* height: 800px; */
+             height: 800px;
              flex-wrap: wrap;
           }
 
@@ -176,3 +177,4 @@
               padding-top: 300px;
               padding-right: 1500px;
           }
+

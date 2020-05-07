@@ -38,3 +38,12 @@
     top: 700px;
     left: 1500px;
 }
+
+.food-list-boxes-buttons-page-6{
+
+    overflow: scroll;
+    /* display: flex; */
+    flex-direction: row;
+    height: 1000px;
+    flex-wrap: wrap;
+}

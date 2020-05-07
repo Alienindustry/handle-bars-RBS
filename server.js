@@ -9,10 +9,10 @@ var bcrypt = require('bcryptjs');
 const  passport = require('passport');
 const session = require('express-session');
 
+const port = process.env.PORT || 3000;
+const mongoURL = process.env.mongoURL || 'momgo://localhost:27017/handlebars';
 
-const port = 
-const mongourl = process.env.mongourl ||'mongo'
-const { isauth } = require('./middleware/iauth');
+const { isAuth } = require('./middleware/iAuth');
 require('./middleware/passport')(passport);
 
 const Contact = require('./models/Contact');
@@ -158,7 +158,8 @@ app.post("/addContact", (req, res) => {
 
 // Mongo is used to connect to our data base 27017 is our port no
   })
-mongoose.connect(, {
+
+mongoose.connect(mongoURL,{
     //These are used so we do not get depreciation messages
     useUnifiedTopology: true,
     useNewUrlParser: true,
@@ -174,7 +175,7 @@ mongoose.connect(, {
   });
 
 //listening for a request on port 3000
-app.listen(3000, () => {
-  console.log("server listening on port $ {port"});
+app.listen(port, () => {
+  console.log(`server listening on port ${port}`);
 
 });
