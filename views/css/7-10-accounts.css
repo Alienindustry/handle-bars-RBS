@@ -1,246 +1,366 @@
 .container {
-    /* background colour for screen */
-    background-color: #efefc1;
-    height: 1980px;
-    width: 1920px;
-  }
-  /* code to give overall colour to screen with no borders  */
-  body {
-    margin: 0px;
-  }
-  .flower-image {
-    height: 593.84px;
-    width: 604.3px;
-  }
-  .icon { /* envelope icon*/
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 50px;
-    display: inline-block !important;
-    vertical-align: middle;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  
-  .login.img {
-    /* margin Set up to auto on screen*/
-    margin-left: 0;
-    margin-right: 10;
-    display: block;
-    padding-bottom: 200px;
-  }
-  .login-2 {
-    margin-left: 600;
-    margin-right: 10;
-    display: block;
-    padding-bottom: 200px;
-  }
-  .classB {
-    
-    margin-left: 0;
-    margin-right: 10;
-    display: block;
-    padding-bottom: 200px;
-  }
-  
-  .classC {
-    
-    margin-left: 0;
-    margin-right: 10;
-    display: block;
-    padding-bottom: 600px;
-    padding-top: 600px;
-    padding-left: 600px;
-  }
-  
-  
-    
-  
-  
-  .login {
-    /* relative position of flower image using flex for the basic item  */
-    position: relative;
-    display: flex;
-    width: 1920px;
-    height: 1081px;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    padding-left: 100px;
-  }
-  
-  .fmn-text {
-    /* length height of text */
-    width: 750px;
-    height: 500px;
-    padding-right: 100px;
-    padding-bottom: 100;
-    padding-top: 100px;
-  }
-  
-  .first-paragraph {
-    margin-bottom: 40px;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif; /* width, height and font type */
-  }
-  
-  .second-paragraph {
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .site-name {
-    width: 600px;
-    height: 100px;
-    font-size: 45px;
-    font-family: "Sonsie One", cursive;
-  }
-  
-  .strap-name {
-    /* strap name and how it is configured */
-    width: 900px;
-    height: 100px;
-    font-size: 35px;
-    font-family: "Sonsie One", cursive;
-  }
-  /* click button with its configuration and given a transition time to go to next page 0.4s */
-  .button {
-    background-color: #b1b1ff; /* lavender */
-    border: none;
-    color: black;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    /* width: 150px; */
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif; /* font type  */
-    margin: 50px 100px;
-    cursor: pointer; /* type of operation  */
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    margin-bottom: 50px;
-  }
-  
-  .button {
-    border-radius: 8px;
-    color: black;
-  }
-  
-  .button {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion*/
-    color: black;
-  }
-  
-  .page2title {
-    width: 100%;
-    align-items: baseline;
-  }
-  
-  /*.input {
-    width: 400px;
-    height: 40px;
-    vertical-align: middle;
-    border-radius: 8px;
-    /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion 
-  }*/
-  .password-reset {
-    height: 0;
-    padding-left: 0px;
-    padding-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .hr {
-    padding-block-start: 10px;
-  }
-  
-  /*login page styles*/
-  
-  .login-header {
-    width: 1920px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  .login-name{
+  /* background colour for screen */
+  background-color: #efefc1;
+  height: 1280px;
+  width: 1920px;
+}
+/* code to give overall colour to screen with no borders  */
+body {
+  margin: 0px;
+}
+.flower-image {
+  height: 593.84px;
+  width: 604.3px;
+}
+.icon {
+  /* envelope icon*/
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 50px;
+  display: inline-block !important;
+  vertical-align: middle;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.login.img {
+  /* margin Set up to auto on screen*/
+  margin-left: 0;
+  margin-right: 10;
+  display: block;
+  padding-bottom: 200px;
+}
+.login-2 {
+  margin-left: 600;
+  margin-right: 10;
+  display: block;
+  padding-bottom: 200px;
+}
+.classB {
+  margin-left: 0;
+  margin-right: 10;
+  display: block;
+  padding-bottom: 200px;
+}
+
+.classC {
+  margin-left: 0;
+  margin-right: 10;
+  display: block;
+  padding-bottom: 600px;
+  padding-top: 600px;
+  padding-left: 600px;
+}
+
+.login {
+  /* relative position of flower image using flex for the basic item  */
+  position: relative;
+  display: flex;
+  width: 1920px;
+  height: 1081px;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  padding-left: 100px;
+}
+
+.fmn-text {
+  /* length height of text */
+  width: 750px;
+  height: 500px;
+  padding-right: 100px;
+  padding-bottom: 100;
+  padding-top: 100px;
+}
+
+.first-paragraph {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif; /* width, height and font type */
+}
+
+.second-paragraph {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-name {
+  width: 600px;
+  height: 100px;
+  font-size: 45px;
+  font-family: "Sonsie One", cursive;
+}
+
+.strap-name {
+  /* strap name and how it is configured */
+  width: 900px;
+  height: 100px;
+  font-size: 35px;
+  font-family: "Sonsie One", cursive;
+}
+/* click button with its configuration and given a transition time to go to next page 0.4s */
+.button {
+  background-color: #b1b1ff; /* lavender */
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* width: 150px; */
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif; /* font type  */
+  margin: 50px 100px;
+  cursor: pointer; /* type of operation  */
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-bottom: 50px;
+}
+
+.button {
+  border-radius: 8px;
+  color: black;
+  margin-top: 250px;
+}
+
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion*/
+  color: black;
+}
+
+.page2title {
+  width: 100%;
+  align-items: baseline;
+}
+
+/*.input {
+  width: 400px;
+  height: 40px;
+  vertical-align: middle;
+  border-radius: 8px;
+  /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion 
+}*/
+.password-reset {
+  height: 0;
+  padding-left: 0px;
+  padding-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hr {
+  padding-block-start: 10px;
+}
+
+/*login page styles*/
+
+.login-header {
+  width: 1920px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.login-name {
   position: absolute;
   top: 60;
   left: 175;
-    width: px;
-    height: 100px;
-    font-size: 35px;
-    font-family: "Sonsie One", cursive;
-  }
-  
-  /*.login-Header-name-food-list{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0px;
-    height: 0px;
-    font-size: 85px;
-    font-family: "Sonsie One", cursive;
-  }*/
-  
-  
-  .login-inputs{
-    width: 800px ;
-    height: 180px;
-  }
-  .login-container{
-  
+  width: px;
+  height: 100px;
+  font-size: 35px;
+  font-family: "Sonsie One", cursive;
+}
+
+/*.login-Header-name-food-list{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  font-size: 85px;
+  font-family: "Sonsie One", cursive;
+}*/
+
+.login-inputs {
+  width: 800px;
+  height: 180px;
+  /* margin: -150px; */
+}
+
+.login-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1920px;
   flex-direction: column;
-  
-  }
-  
-  .Password{
-    width: 350px;
-    height: 30px;
-    background: none;
-    border: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-  }
-  
-  .password-container{
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    
-  }
-  
-  .login-button-container{
-  
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    
-  
-  
-  }
-  .login-strap-name{
-    /* width: 900px; */
-    height: 100px;
-    font-size: 35px;
-    font-family: "Sonsie One", cursive;
-    text-align: center;
-    color: black;
-  
-  }
-  .inputrow{
-  
+}
+
+.Password {
+  width: 1400px;
+  height: 30px;
+  background: none;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  /* font-family: "Sonsie One", cursive; */
+}
+
+.password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.login-button-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin : 100px;
+}
+.login-strap-name {
+  /* width: 900px; */
+  height: 100px;
+  font-size: 25px;
+  font-family: "Sonsie One", cursive;
+  text-align: center;
+  color: black;
+  margin: -70px;
+}
+.inputrow {
   height: 80px;
-  
-  }
-  
-  
-  
+}
+
+.account-text {
+  font-family: "Sonsie One", cursive;
+  padding-top: 250px;
+  left: 100px;
+  font-size: 20px;
+}
+
+.my-new-class {
+  position: absolute;
+  margin-top: -50px;
+}
+
+.text-page-7 {
+  padding-top: 310px;
+  height: 50px;
+  top: 400px;
+  left: 80px;
+  font-size: 17px;
+  font-family: "Sonsie One", cursive;
+}
+
+.reset-flower-page-8 {
+  position: absolute;
+  margin-top: -50px;
+}
+
+.reset-password-page-8 {
+  font-family: "Sonsie One", cursive;
+  padding-top: 250px;
+  /* left: 850px; */
+  font-size: 30px;
+  position: absolute;
+}
+
+.confirmation-quote-page-8 {
+  padding-top: 250px;
+  left: 780px;
+  bottom: 500px;
+  position: absolute;
+  color: gray;
+}
+
+.reset-password-button-container-page-8 {
+  background-color: #b1b1ff;
+
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* width: 150px; */
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 500px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-bottom: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.welcome-back-page-10 {
+  font-family: "Sonsie One", cursive;
+  padding-top: 120px;
+  left: 830px;
+  font-size: 25px;
+  position: absolute;
+}
+
+.welcome-back-quote-page-10 {
+  padding-top: 250px;
+  left: 710px;
+  bottom: 500px;
+  position: absolute;
+  color: gray;
+}
+
+.welldone-back-page-10 {
+  font-family: "Sonsie One", cursive;
+  padding-top: 210px;
+  left: 870px;
+  font-size: 25px;
+  position: absolute;
+}
+
+/* .login-button-container-page-10 {
+  background-color: #b1b1ff;
+
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 500px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-bottom: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.Logins-button-container-page-10  {
+  /* background-color: #b1b1ff; */
+  margin-left: 750px;
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  /* width: 150px; */
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 500px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-bottom: 50px;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.reset-button-container-page-8{
+
+
+  /* height: 60px; */
+  margin: 50;
+
+}

@@ -1,7 +1,7 @@
 .container {
   /* background colour for screen */
   background-color: #efefc1;
-  height: 1980px;
+  height: 1300px;
   width: 1920px;
 }
 /* code to give overall colour to screen with no borders  */
@@ -14,7 +14,7 @@ body {
 }
 .icon { /* envelope icon*/
   margin: 0 !important;
-  padding: 0 !important;
+  /* padding: 0 !important; */
   width: 50px;
   display: inline-block !important;
   vertical-align: middle;
@@ -92,7 +92,7 @@ body {
 .site-name {
   width: 600px;
   height: 100px;
-  font-size: 45px;
+  font-size: 35px;
   font-family: "Sonsie One", cursive;
 }
 
@@ -100,7 +100,7 @@ body {
   /* strap name and how it is configured */
   width: 900px;
   height: 100px;
-  font-size: 35px;
+  font-size: 25px;
   font-family: "Sonsie One", cursive;
 }
 /* click button with its configuration and given a transition time to go to next page 0.4s */
@@ -173,6 +173,7 @@ left: 175;
   height: 100px;
   font-size: 35px;
   font-family: "Sonsie One", cursive;
+ 
 }
 
 /*.login-Header-name-food-list{
@@ -230,7 +231,7 @@ flex-direction: column;
 .login-strap-name{
   /* width: 900px; */
   height: 100px;
-  font-size: 35px;
+  font-size: 25px;
   font-family: "Sonsie One", cursive;
   text-align: center;
   color: black;
